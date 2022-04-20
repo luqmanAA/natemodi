@@ -2,7 +2,6 @@ backend:
   name: github
   repo: luqmanAA/natemodi
   branch: main
-  base_url: https://natemodi.com/
 
 media_folder: static/assets
 public_folder: /assets

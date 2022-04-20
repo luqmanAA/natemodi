@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://natemodi.com`,
   },
   plugins: [
     "gatsby-plugin-react-helmet", "gatsby-plugin-netlify-cms",

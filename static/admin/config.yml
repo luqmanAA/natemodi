@@ -2,11 +2,6 @@ backend:
   name: github
   repo: luqmanAA/natemodi
   branch: main
-  api_root: https://api.github.com
-  site_domain: natemodi.com
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
-  cms_label_prefix: netlify-cms/
 
 media_folder: static/assets
 public_folder: /assets

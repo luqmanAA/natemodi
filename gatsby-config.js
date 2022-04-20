@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
-    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-react-helmet", "gatsby-plugin-netlify-cms",
     {
       resolve: 'gatsby-plugin-manifest',
       options: {

@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5 {
 main {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
     max-width: 60rem;
     margin: 2rem auto;
     padding: 1rem;
@@ -40,7 +41,7 @@ header {
 }
 
 nav ul {
-    border-right: 1px solid #edf2f7;
+    border-left: 1px solid #edf2f7;
 }
 .posts ul, header ul {
     list-style: none;
@@ -54,19 +55,14 @@ a {
 
 header li {
     margin-bottom: 0.2rem;
-    text-align: right;
-    margin-right: 2rem;
+    text-align: left;
+    margin-left: 2rem;
 }
 
 header a {
     text-decoration: none;
 }
 
-header {
-    flex-basis: 10rem;
-    flex-grow: 1;
-    position: relative;
-}
 section {
     flex-basis: 0;
     flex-grow: 999;
@@ -138,17 +134,5 @@ strong, b {
     header li {
         display: inline;
         margin-right: 1rem;
-    }
-}
-
-@media screen and (max-width: 90rem) {
-    nav ul {
-
-    }
-    header ul {
-
-    }
-    header li {
-        
     }
 }

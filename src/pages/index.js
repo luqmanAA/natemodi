@@ -33,11 +33,13 @@ export default function Home() {
         <section className="post">
           <h2>Nathaniel Emodi</h2>
           <img src= {profileImg} alt="profile"/>
-          <p>I build and invest in technology startups.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <p>
-            I was a Director at <Link to="#">Coinbase</Link> where I built product and engineering teams 
-            for four years. Before that, I founded <Link to="#">SoundFocus</Link> to help people with hearing loss, 
-            and worked at <Link to="#">Microsoft</Link>. I grew up in India and studied at Carnegie Mellon University.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porttitor ultrices dignissim. Nunc 
+          laoreet ipsum ac nisi maximus, tristique volutpat velit pulvinar. Ut tellus est, tristique non 
+          efficitur non, viverra ut tortor. Suspendisse vitae euismod turpis. Class aptent taciti sociosqu ad 
+          litora torquent per conubia nostra, per inceptos himenaeos. Aenean ac nisi mattis, imperdiet lorem 
+          ultrices, pretium lectus.
           </p>
           <p>You can reach me on <Link to="mailto:nat@searanchla.bs">Email</Link> or <Link to="http://www.twitter.com/natemodi" target={"_blank"}>Twitter</Link>.</p>
         </section>

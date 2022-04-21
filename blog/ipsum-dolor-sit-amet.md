@@ -1,5 +1,5 @@
 ---
-path: Ipsum Dolor Sit Amet
+path: ipsum-dolor-sit-amet
 date: 2022-04-21T08:57:50.627Z
 title: Ipsum Dolor Sit Amet
 ---

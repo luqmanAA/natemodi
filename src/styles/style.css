@@ -93,14 +93,14 @@ img {
     margin: 0.5rem 0;
 }
 
-.posts li {
+.posts li, .posts .post-meta {
     align-items: center;
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5rem;
 }
 
-.posts li a, .posts li div, .projects li a {
+.posts li a, .posts .post-meta a, .posts li div, .projects li a {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -117,6 +117,21 @@ strong, b {
     font-weight: bold;
 }
 
+.posts .blog-post-item, .posts .single-post-content {
+    margin-top: 1.5rem;
+}
+.post-meta .post-date, .single-post-date {
+    font-size: 0.85rem;
+}
+.post-excerpt {
+    margin-bottom: 1rem;
+}
+
+.back-button {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
 /***
 
 ** Mobile Style

@@ -7,12 +7,15 @@ export default class BlogIndexPage extends React.Component {
     return (
       <Layout breadcrumbs={["Blog"]}>
       <section className="posts">
+
         <React.Fragment>
-          <h1>Latest Posts</h1>
-            <div className="content">
-              <BlogRoll />
-            </div>
+          <h2>Nathaniel Emodi's Blog</h2>
+          <p>
+            I put my thoughts in words weekly
+          </p>
+          <BlogRoll />
         </React.Fragment>
+
       </section>  
       </Layout>
     );

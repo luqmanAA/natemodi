@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: luqmanAA/natemodi
-  base_url: https://natemodi.gatsbyjs.io/
+  base_url: https://vocal-beijinho-701dfa.netlify.app/
 
 media_folder: static/assets
 public_folder: /assets

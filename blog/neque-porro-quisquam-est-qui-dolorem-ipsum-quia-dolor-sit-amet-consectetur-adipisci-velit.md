@@ -1,5 +1,5 @@
 ---
-path: neque-porro-quisquam-est-qui-dolorem-ipsum-quia-dolor-sit-amet
+path: /blog/neque-porro-quisquam-est-qui-dolorem-ipsum-quia-dolor-sit-amet
 date: 2022-04-21T11:32:32.674Z
 title: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
   consectetur, adipisci velit

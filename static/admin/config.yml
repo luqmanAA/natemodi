@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: luqmanAA/natemodi
-  branch: main
+  base_url: https://natemodi.gatsbyjs.io/
 
 media_folder: static/assets
 public_folder: /assets

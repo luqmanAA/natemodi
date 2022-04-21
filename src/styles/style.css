@@ -95,13 +95,10 @@ img {
 
 .posts li, .posts .post-meta {
     align-items: center;
-    display: flex;
-    justify-content: space-between;
     margin-bottom: 0.5rem;
 }
 
 .posts li a, .posts .post-meta a, .posts li div, .projects li a {
-    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     text-decoration: none;
@@ -116,15 +113,20 @@ img {
 strong, b {
     font-weight: bold;
 }
-
+h4.post-title {
+    margin: 0.5rem 0;
+}
+h2.single-post-title {
+    line-height: 2rem;
+}
 .posts .blog-post-item, .posts .single-post-content {
-    margin-top: 1.5rem;
+    margin-top: 3rem;
 }
 .post-meta .post-date, .single-post-date {
     font-size: 0.85rem;
 }
 .post-excerpt {
-    margin-bottom: 1rem;
+    margin: 1rem 0;
 }
 
 .back-button {

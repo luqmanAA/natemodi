@@ -17,7 +17,7 @@ class BlogRoll extends React.Component {
                       
                       <div className="post-meta">
                           <h4 className='post-title'>
-                              <Link className="title has-text-primary is-size-4" to={post.frontmatter.path}>
+                              <Link className="title" to={post.frontmatter.path}>
                                   {post.frontmatter.title}
                                 </Link>
                             </h4>

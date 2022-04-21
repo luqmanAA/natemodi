@@ -150,6 +150,6 @@ h2.single-post-title {
     }
     header li {
         display: inline;
-        margin-right: 1rem;
+        margin: 0 1rem 0 0;
     }
 }
